@@ -1,0 +1,23 @@
+{
+  "name": "tcc-pat",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/recancelli/tcc-pat#readme",
+  "bugs": {
+    "url": "https://github.com/recancelli/tcc-pat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recancelli/tcc-pat.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mocha": "^11.7.5"
+  }
+}
