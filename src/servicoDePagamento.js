@@ -5,15 +5,15 @@ export default class ServicoDePagamento {
         this.#pagamentos = [];
     }
 
-    pagar(codigoDeBarras, empresa, valor) {
-        if (!codigoDeBarras || !empresa || !valor) {
+    pagar(codigoBarras, empresa, valor) {
+        if (!codigoBarras || !empresa || !valor) {
             throw new Error('Código de barras, empresa e valor são obrigatórios para realizar um pagamento.');
         }
 
         if (valor > 0) {
-            const categoria = valor > 100 ? 'caro' : 'padrao';
+            const categoria = valor > 100 ? 'cara' : 'padrão';
             this.#pagamentos.push({
-                codigoDeBarras,
+                codigoBarras,
                 empresa,
                 valor,
                 categoria
