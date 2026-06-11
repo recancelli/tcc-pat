@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: 02 - Schedule Pipeline
 
 on:
   schedule:
